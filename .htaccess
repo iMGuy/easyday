@@ -1,0 +1,9 @@
+SetEnv DB_USER shguy
+SetEnv DB_PASS 
+SetEnv CONF_FILE /home/ubuntu/workspace/easyday/config/config.ini
+
+ErrorDocument 404 404.html
+
+<IfModule mod_rewrite.c>
+
+</IfModule>
