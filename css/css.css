@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arimo', sans-serif;
+    background-color: transparent;
+    /* background: url("../img/hp_backgroundb.jpg") no-repeat top left fixed;
+    background-size: 100%;*/
+}
+
+.button-position {
+    text-align: left;
+    margin: 14px 0;
+}
+.navbar-header {
+    float: left !important;
+    }
+
+.ui-widget.ui-widget-content {
+    right: auto !important;
+    left: auto !important;
+
+}
+
+#autocomplete-results {
+    display: block; 
+    position:relative
+} 
+
+.ui-autocomplete {
+    position: absolute;
+    width: 90% !important;
+    max-width: 550px !important;
+    /* overflow-x:scroll !important; */
+}
+
+.btn-add {
+    margin: 25px 0 0 0 !important;
+}

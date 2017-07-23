@@ -1,0 +1,18 @@
+Time : 21:15:39
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'NUTR_DEF.Tagname' doesn't exist
+Raw SQL : SELECT * FROM `NUT_DATA` 
+                            inner join NUTR_DEF.Tagname
+                                on NUT_DATA.Nutr_No = NUTR_DEF.Nutr_No WHERE NDB_No = ?
+
+Time : 21:14:39
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easyday.NUTR_DEF.Tagname' doesn't exist
+Raw SQL : SELECT * FROM `NUT_DATA` 
+                            inner join `NUTR_DEF.Tagname`
+                                on `NUT_DATA.Nutr_No` = `NUTR_DEF.Nutr_No` WHERE NDB_No = ?
+
+Time : 21:13:45
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'inner join `NUTR_DEF.Tagname`
+                                on `NUT_DATA.Nutr_' at line 2
+Raw SQL : SELECT * FROM `NUT_DATA` WHERE NDB_No = ? 
+                            inner join `NUTR_DEF.Tagname`
+                                on `NUT_DATA.Nutr_No` = `NUTR_DEF.Nutr_No`
