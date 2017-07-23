@@ -1,0 +1,5 @@
+# The htaccess file - contain inv related settings
+.htaccess
+
+#The site main config ini file - should be in diffrent folder in production - contain inv related settings
+/config/config.ini
