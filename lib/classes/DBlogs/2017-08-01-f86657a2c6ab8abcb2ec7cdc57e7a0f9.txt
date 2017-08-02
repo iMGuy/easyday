@@ -1,0 +1,23 @@
+Time : 22:35:30
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT `Shrt_Desc` FROM `FOOD_DES` WHERE `Shrt_Desc` LIKE ?
+
+Time : 22:35:20
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT `Shrt_Desc` FROM `FOOD_DES` WHERE `Shrt_Desc` LIKE ?
+
+Time : 22:31:57
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT `Shrt_Desc` FROM `FOOD_DES` WHERE `Shrt_Desc` LIKE ?
+
+Time : 22:31:32
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT `Shrt_Desc` FROM `FOOD_DES` WHERE `Shrt_Desc` LIKE ?
+
+Time : 22:31:19
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT `Shrt_Desc` FROM `FOOD_DES` WHERE `Shrt_Desc` LIKE ?
+
+Time : 13:47:57
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT ``, `` FROM `WEIGHT` WHERE `NDB_No` =

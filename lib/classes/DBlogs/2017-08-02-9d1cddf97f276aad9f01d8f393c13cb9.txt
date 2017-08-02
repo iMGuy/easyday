@@ -1,0 +1,43 @@
+Time : 14:06:06
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT `Shrt_Desc` FROM `FOOD_DES` WHERE `Shrt_Desc` LIKE ?
+
+Time : 14:06:04
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT `Shrt_Desc` FROM `FOOD_DES` WHERE `Shrt_Desc` LIKE ?
+
+Time : 13:49:43
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT `NDB_No` FROM `FOOD_DES` WHERE `Shrt_Desc` = ?
+
+Time : 13:48:58
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT `NDB_No` FROM `FOOD_DES` WHERE `Shrt_Desc` = ?
+
+Time : 13:23:47
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NDB_No' in 'field list'
+Raw SQL : SELECT `Shrt_Desc_he`,`NDB_No` FROM `FOOD_DES_TRANSLATE` WHERE `Shrt_Desc_he` LIKE ?
+
+Time : 13:23:27
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NDB_No' in 'field list'
+Raw SQL : SELECT `Shrt_Desc_he`,`NDB_No` FROM `FOOD_DES_TRANSLATE` WHERE `Shrt_Desc_he` LIKE ?
+
+Time : 13:21:50
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NDB_No' in 'field list'
+Raw SQL : SELECT `Shrt_Desc_he`,`NDB_No` FROM `FOOD_DES_TRANSLATE` WHERE `Shrt_Desc_he` LIKE ?
+
+Time : 13:20:47
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NDB_No' in 'field list'
+Raw SQL : SELECT `Shrt_Desc_he`,`NDB_No` FROM `FOOD_DES_TRANSLATE` WHERE `Shrt_Desc_he` LIKE ?
+
+Time : 13:20:39
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NDB_No' in 'field list'
+Raw SQL : SELECT `Shrt_Desc_he`,`NDB_No` FROM `FOOD_DES_TRANSLATE` WHERE `Shrt_Desc_he` LIKE ?
+
+Time : 13:20:38
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NDB_No' in 'field list'
+Raw SQL : SELECT `Shrt_Desc_he`,`NDB_No` FROM `FOOD_DES_TRANSLATE` WHERE `Shrt_Desc_he` LIKE ?
+
+Time : 13:20:37
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NDB_No' in 'field list'
+Raw SQL : SELECT `Shrt_Desc_he`,`NDB_No` FROM `FOOD_DES_TRANSLATE` WHERE `Shrt_Desc_he` LIKE ?

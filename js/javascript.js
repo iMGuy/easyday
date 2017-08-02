@@ -1,12 +1,13 @@
-   
-   /* DataTable Settings JS */
-   $(document).ready(function() {
-		$('#example').DataTable( {
-		  /*  "ajax": '../ajax/data/arrays.txt' */
-		} );
-	} );
-	
-	
+
+    /* need to add onchange to dish name input field.
+    
+    $(".dishname").autocomplete({
+        change: function(change) {
+    	    alert('There was a change in the dish name - please select an existing dish.');
+    	    $('#quantity_input, #addtomeal_select, #add_btn_button,  #info_inputs').hide("slow");   
+    	}   
+    });
+    */
     $(".dishname").autocomplete({
     	source: "data/dish_search.php",
     	noCache: true,
@@ -14,7 +15,9 @@
     	minLength: 3,
     	appendTo: "#autocomplete-results",
     	// After selecting food name - updates nutrition inputs
+    	
     	select: function() {
+    	    $('#quantity_input, #addtomeal_select, #add_btn_button,  #info_inputs').show("slow");
     	    $.ajax({ type: "GET",   
                     url: "data/unit_search.php",   
                     async: false,
@@ -28,21 +31,9 @@
                     }
             });
     	    
-    	}
+    	},
+    	
     });
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	/* Dynamic Form Fields - Add & Remove Multiple fields, source: https://bootsnipp.com/snippets/AXVrV */
 	var room = 1;
@@ -96,3 +87,26 @@
         $("input:text.fats_count").val(Math.round($("input:hidden.fats").val()*$("input:text.quantity").val()*100)/100).change();
         
     });
+   
+    // Add the meals feature section to the home page - Default. 
+    function displayMealsView() {
+        var meals = document.getElementById("addtomeal");
+        var meals_display = document.getElementById("meals_display");
+        var txt = '';
+        var i;
+        
+        for (i = 1; i < meals.length; i++) {
+            txt = txt + "<div id=\"" + meals.options[i].value + "\"><h2 class = \"meal_title\">" + meals.options[i].text + "</h2></div>\n";
+        }
+        
+        $( meals_display ).append( txt );
+    } 
+   
+    
+   /* DataTable Settings JS 
+   $(document).ready(function() {
+		$('#example').DataTable( {
+		  //  "ajax": '../ajax/data/arrays.txt'
+		} );
+	} );
+	*/

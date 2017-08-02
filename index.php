@@ -1,6 +1,7 @@
 <?php
     namespace lib\classes;
     require_once dirname(__FILE__) . '/lib/wrapper.php';
+    require_once dirname(__FILE__) . '/data/index.php';
 ?>
 
 <!DOCTYPE html>
@@ -15,25 +16,31 @@
 <body id="page-top" class="index">
 
     <!-- Navigation -->
-    <?php // include("/include/site_top_nav.php"); ?>
+    <?php // include("/include/site_top_nav.php");  ?>
     
+    <div class="row" style="text-align: left; width: 95%; margin: 0 auto;">
+        <a href="<?php $dir_path ?>index.php?lang=hebrew">עברית</a> | <a href="<?php $dir_path ?>index.php?lang=english">English</a>
+    </div>
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1>פתרון קל לבניית תפריט יומי</h1>
-        <p> אחרי חישובים והסברים,הגענו לשלב בו אנו בונים תפריט.מה בעצם נשאר לנו?
-            חישבנו את ההוצאה הקלורית,חישבנו כמה קלוריות התפריט שלנו יכלול וגם כמה גרם אנו צריכים מכל אב מזון. אחרי כל זה,נותר רק להכניס מאכלים לתפריט.</p>
+        <h1><?php echo $texts['homepage']['h1_title'] ?></h1>
+        <p> <?php echo $texts['homepage']['title_discription'] ?> </p>  
       </div>
     </div>
 
     <div class="container">
         
         <div class="row dish-search-box">
-            <?php include('dish_select.php'); ?>
+            <div class="row">
+                <?php include('include/dish_select.php'); ?>
+            </div>
+            <div class="row" id="info_inputs">
+                <?php include('include/dish_info.php'); ?>
+            </div>
         </div>
-        <div class="row">
-          <div class="clear"></div>
-          <div id="menu_fields"></div>
+        <div class="row" id="meals_display">
+            <div class="clear"></div>   
         </div>
 
         <!-- Site footer -->
@@ -44,5 +51,16 @@
     <?php include("include/site_footer_js.php"); ?>
 
 </body>
+
+<script>
+
+    window.onload = displayMealsView();
+    
+    $(document).ready ( function(){
+        $('#quantity_input, #addtomeal_select, #add_btn_button, #info_inputs').hide();
+
+    });
+    
+</script>
 
 </html> 

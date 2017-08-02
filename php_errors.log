@@ -2977,3 +2977,156 @@
 [12-Jul-2017 20:53:37 Asia/Jerusalem] PHP Stack trace:
 [12-Jul-2017 20:53:37 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/brewshop/test-file-ajax.php:0
 [12-Jul-2017 20:53:37 Asia/Jerusalem] PHP   2. fopen() /home/ubuntu/workspace/easyday/brewshop/test-file-ajax.php:16
+[01-Aug-2017 22:31:12 Asia/Jerusalem] PHP Warning:  include(config/localization/english.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/easyday/lib/wrapper.php on line 32
+[01-Aug-2017 22:31:12 Asia/Jerusalem] PHP Stack trace:
+[01-Aug-2017 22:31:12 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[01-Aug-2017 22:31:12 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[01-Aug-2017 22:31:12 Asia/Jerusalem] PHP Warning:  include(): Failed opening 'config/localization/english.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/easyday/lib/wrapper.php on line 32
+[01-Aug-2017 22:31:12 Asia/Jerusalem] PHP Stack trace:
+[01-Aug-2017 22:31:12 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[01-Aug-2017 22:31:12 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[01-Aug-2017 22:31:12 Asia/Jerusalem] PHP Warning:  include(config/localization/english.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/easyday/lib/wrapper.php on line 32
+[01-Aug-2017 22:31:12 Asia/Jerusalem] PHP Stack trace:
+[01-Aug-2017 22:31:12 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[01-Aug-2017 22:31:12 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[01-Aug-2017 22:31:12 Asia/Jerusalem] PHP Warning:  include(): Failed opening 'config/localization/english.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/easyday/lib/wrapper.php on line 32
+[01-Aug-2017 22:31:12 Asia/Jerusalem] PHP Stack trace:
+[01-Aug-2017 22:31:12 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[01-Aug-2017 22:31:12 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[01-Aug-2017 22:31:19 Asia/Jerusalem] PHP Warning:  include(config/localization/english.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/easyday/lib/wrapper.php on line 32
+[01-Aug-2017 22:31:19 Asia/Jerusalem] PHP Stack trace:
+[01-Aug-2017 22:31:19 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[01-Aug-2017 22:31:19 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[01-Aug-2017 22:31:19 Asia/Jerusalem] PHP Warning:  include(): Failed opening 'config/localization/english.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/easyday/lib/wrapper.php on line 32
+[01-Aug-2017 22:31:19 Asia/Jerusalem] PHP Stack trace:
+[01-Aug-2017 22:31:19 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[01-Aug-2017 22:31:19 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[01-Aug-2017 22:31:22 Asia/Jerusalem] PHP Warning:  include(config/localization/english.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/easyday/lib/wrapper.php on line 32
+[01-Aug-2017 22:31:22 Asia/Jerusalem] PHP Stack trace:
+[01-Aug-2017 22:31:22 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[01-Aug-2017 22:31:22 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[01-Aug-2017 22:31:22 Asia/Jerusalem] PHP Warning:  include(): Failed opening 'config/localization/english.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/easyday/lib/wrapper.php on line 32
+[01-Aug-2017 22:31:22 Asia/Jerusalem] PHP Stack trace:
+[01-Aug-2017 22:31:22 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[01-Aug-2017 22:31:22 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[01-Aug-2017 22:31:32 Asia/Jerusalem] PHP Warning:  include(config/localization/english.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/easyday/lib/wrapper.php on line 32
+[01-Aug-2017 22:31:32 Asia/Jerusalem] PHP Stack trace:
+[01-Aug-2017 22:31:32 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[01-Aug-2017 22:31:32 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[01-Aug-2017 22:31:32 Asia/Jerusalem] PHP Warning:  include(): Failed opening 'config/localization/english.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/easyday/lib/wrapper.php on line 32
+[01-Aug-2017 22:31:32 Asia/Jerusalem] PHP Stack trace:
+[01-Aug-2017 22:31:32 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[01-Aug-2017 22:31:32 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[01-Aug-2017 22:31:57 Asia/Jerusalem] PHP Warning:  include(config/localization/english.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/easyday/lib/wrapper.php on line 32
+[01-Aug-2017 22:31:57 Asia/Jerusalem] PHP Stack trace:
+[01-Aug-2017 22:31:57 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[01-Aug-2017 22:31:57 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[01-Aug-2017 22:31:57 Asia/Jerusalem] PHP Warning:  include(): Failed opening 'config/localization/english.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/easyday/lib/wrapper.php on line 32
+[01-Aug-2017 22:31:57 Asia/Jerusalem] PHP Stack trace:
+[01-Aug-2017 22:31:57 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[01-Aug-2017 22:31:57 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[01-Aug-2017 22:34:37 Asia/Jerusalem] PHP Warning:  include(config/localization/english.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/easyday/lib/wrapper.php on line 32
+[01-Aug-2017 22:34:37 Asia/Jerusalem] PHP Stack trace:
+[01-Aug-2017 22:34:37 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[01-Aug-2017 22:34:37 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[01-Aug-2017 22:34:37 Asia/Jerusalem] PHP Warning:  include(): Failed opening 'config/localization/english.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/easyday/lib/wrapper.php on line 32
+[01-Aug-2017 22:34:37 Asia/Jerusalem] PHP Stack trace:
+[01-Aug-2017 22:34:37 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[01-Aug-2017 22:34:37 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[01-Aug-2017 22:34:41 Asia/Jerusalem] PHP Warning:  include(config/localization/english.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/easyday/lib/wrapper.php on line 32
+[01-Aug-2017 22:34:41 Asia/Jerusalem] PHP Stack trace:
+[01-Aug-2017 22:34:41 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[01-Aug-2017 22:34:41 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[01-Aug-2017 22:34:41 Asia/Jerusalem] PHP Warning:  include(): Failed opening 'config/localization/english.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/easyday/lib/wrapper.php on line 32
+[01-Aug-2017 22:34:41 Asia/Jerusalem] PHP Stack trace:
+[01-Aug-2017 22:34:41 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[01-Aug-2017 22:34:41 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[01-Aug-2017 22:35:20 Asia/Jerusalem] PHP Warning:  include(config/localization/english.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/easyday/lib/wrapper.php on line 32
+[01-Aug-2017 22:35:20 Asia/Jerusalem] PHP Stack trace:
+[01-Aug-2017 22:35:20 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[01-Aug-2017 22:35:20 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[01-Aug-2017 22:35:20 Asia/Jerusalem] PHP Warning:  include(): Failed opening 'config/localization/english.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/easyday/lib/wrapper.php on line 32
+[01-Aug-2017 22:35:20 Asia/Jerusalem] PHP Stack trace:
+[01-Aug-2017 22:35:20 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[01-Aug-2017 22:35:20 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[01-Aug-2017 22:35:30 Asia/Jerusalem] PHP Warning:  include(config/localization/english.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/easyday/lib/wrapper.php on line 32
+[01-Aug-2017 22:35:30 Asia/Jerusalem] PHP Stack trace:
+[01-Aug-2017 22:35:30 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[01-Aug-2017 22:35:30 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[01-Aug-2017 22:35:30 Asia/Jerusalem] PHP Warning:  include(): Failed opening 'config/localization/english.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/easyday/lib/wrapper.php on line 32
+[01-Aug-2017 22:35:30 Asia/Jerusalem] PHP Stack trace:
+[01-Aug-2017 22:35:30 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[01-Aug-2017 22:35:30 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[01-Aug-2017 22:35:32 Asia/Jerusalem] PHP Warning:  include(config/localization/english.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/easyday/lib/wrapper.php on line 32
+[01-Aug-2017 22:35:32 Asia/Jerusalem] PHP Stack trace:
+[01-Aug-2017 22:35:32 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[01-Aug-2017 22:35:32 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[01-Aug-2017 22:35:32 Asia/Jerusalem] PHP Warning:  include(): Failed opening 'config/localization/english.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/easyday/lib/wrapper.php on line 32
+[01-Aug-2017 22:35:32 Asia/Jerusalem] PHP Stack trace:
+[01-Aug-2017 22:35:32 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[01-Aug-2017 22:35:32 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[01-Aug-2017 22:44:03 Asia/Jerusalem] PHP Warning:  include(config/localization/english.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/easyday/lib/wrapper.php on line 32
+[01-Aug-2017 22:44:03 Asia/Jerusalem] PHP Stack trace:
+[01-Aug-2017 22:44:03 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[01-Aug-2017 22:44:03 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[01-Aug-2017 22:44:03 Asia/Jerusalem] PHP Warning:  include(): Failed opening 'config/localization/english.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/easyday/lib/wrapper.php on line 32
+[01-Aug-2017 22:44:03 Asia/Jerusalem] PHP Stack trace:
+[01-Aug-2017 22:44:03 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[01-Aug-2017 22:44:03 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[01-Aug-2017 22:44:29 Asia/Jerusalem] PHP Warning:  include(config/localization/english.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/easyday/lib/wrapper.php on line 32
+[01-Aug-2017 22:44:29 Asia/Jerusalem] PHP Stack trace:
+[01-Aug-2017 22:44:29 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[01-Aug-2017 22:44:29 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[01-Aug-2017 22:44:29 Asia/Jerusalem] PHP Warning:  include(): Failed opening 'config/localization/english.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/easyday/lib/wrapper.php on line 32
+[01-Aug-2017 22:44:29 Asia/Jerusalem] PHP Stack trace:
+[01-Aug-2017 22:44:29 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[01-Aug-2017 22:44:29 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[01-Aug-2017 22:48:08 Asia/Jerusalem] PHP Warning:  include(config/localization/english.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/easyday/lib/wrapper.php on line 32
+[01-Aug-2017 22:48:08 Asia/Jerusalem] PHP Stack trace:
+[01-Aug-2017 22:48:08 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[01-Aug-2017 22:48:08 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[01-Aug-2017 22:48:08 Asia/Jerusalem] PHP Warning:  include(): Failed opening 'config/localization/english.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/easyday/lib/wrapper.php on line 32
+[01-Aug-2017 22:48:08 Asia/Jerusalem] PHP Stack trace:
+[01-Aug-2017 22:48:08 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[01-Aug-2017 22:48:08 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[01-Aug-2017 22:48:55 Asia/Jerusalem] PHP Warning:  include(config/localization/english.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/easyday/lib/wrapper.php on line 32
+[01-Aug-2017 22:48:55 Asia/Jerusalem] PHP Stack trace:
+[01-Aug-2017 22:48:55 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[01-Aug-2017 22:48:55 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[01-Aug-2017 22:48:55 Asia/Jerusalem] PHP Warning:  include(): Failed opening 'config/localization/english.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/easyday/lib/wrapper.php on line 32
+[01-Aug-2017 22:48:55 Asia/Jerusalem] PHP Stack trace:
+[01-Aug-2017 22:48:55 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[01-Aug-2017 22:48:55 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[02-Aug-2017 13:24:10 Asia/Jerusalem] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/easyday/data/dish_search.php on line 18
+[02-Aug-2017 13:24:10 Asia/Jerusalem] PHP Stack trace:
+[02-Aug-2017 13:24:10 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[02-Aug-2017 13:34:13 Asia/Jerusalem] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/easyday/data/dish_search.php:20) in /home/ubuntu/workspace/easyday/data/dish_search.php on line 29
+[02-Aug-2017 13:34:13 Asia/Jerusalem] PHP Stack trace:
+[02-Aug-2017 13:34:13 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[02-Aug-2017 13:34:13 Asia/Jerusalem] PHP   2. header() /home/ubuntu/workspace/easyday/data/dish_search.php:29
+[02-Aug-2017 13:37:10 Asia/Jerusalem] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/easyday/data/dish_search.php:20) in /home/ubuntu/workspace/easyday/data/dish_search.php on line 29
+[02-Aug-2017 13:37:10 Asia/Jerusalem] PHP Stack trace:
+[02-Aug-2017 13:37:10 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[02-Aug-2017 13:37:10 Asia/Jerusalem] PHP   2. header() /home/ubuntu/workspace/easyday/data/dish_search.php:29
+[02-Aug-2017 10:37:23 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/ubuntu/workspace/easyday/data/dish_search.php on line 4
+[02-Aug-2017 13:37:42 Asia/Jerusalem] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/easyday/data/dish_search.php:22) in /home/ubuntu/workspace/easyday/data/dish_search.php on line 31
+[02-Aug-2017 13:37:42 Asia/Jerusalem] PHP Stack trace:
+[02-Aug-2017 13:37:42 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[02-Aug-2017 13:37:42 Asia/Jerusalem] PHP   2. header() /home/ubuntu/workspace/easyday/data/dish_search.php:31
+[02-Aug-2017 13:37:57 Asia/Jerusalem] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/easyday/data/dish_search.php:22) in /home/ubuntu/workspace/easyday/data/dish_search.php on line 31
+[02-Aug-2017 13:37:57 Asia/Jerusalem] PHP Stack trace:
+[02-Aug-2017 13:37:57 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[02-Aug-2017 13:37:57 Asia/Jerusalem] PHP   2. header() /home/ubuntu/workspace/easyday/data/dish_search.php:31
+[02-Aug-2017 13:38:31 Asia/Jerusalem] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/easyday/data/dish_search.php:21) in /home/ubuntu/workspace/easyday/data/dish_search.php on line 30
+[02-Aug-2017 13:38:31 Asia/Jerusalem] PHP Stack trace:
+[02-Aug-2017 13:38:31 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[02-Aug-2017 13:38:31 Asia/Jerusalem] PHP   2. header() /home/ubuntu/workspace/easyday/data/dish_search.php:30
+[02-Aug-2017 13:39:24 Asia/Jerusalem] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/easyday/data/dish_search.php on line 27
+[02-Aug-2017 13:39:24 Asia/Jerusalem] PHP Stack trace:
+[02-Aug-2017 13:39:24 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[02-Aug-2017 13:39:53 Asia/Jerusalem] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/easyday/data/dish_search.php on line 27
+[02-Aug-2017 13:39:53 Asia/Jerusalem] PHP Stack trace:
+[02-Aug-2017 13:39:53 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[02-Aug-2017 13:42:43 Asia/Jerusalem] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/easyday/data/dish_search.php on line 33
+[02-Aug-2017 13:42:43 Asia/Jerusalem] PHP Stack trace:
+[02-Aug-2017 13:42:43 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0

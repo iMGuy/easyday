@@ -14,7 +14,7 @@ body {
 .dish-search-box {
     background-color: #fff;
     border: 1px solid #D4D4D4;
-    padding: 5px;
+    padding: 15px;
 }
 
 .button-position {
@@ -57,6 +57,18 @@ body {
     height:auto;
     width:100%;
     line-height: 25px; 
-    
 }
 
+@media (min-width: 1200px) {
+    .container {
+        width: 980px;
+    
+    }
+}
+h2 {
+
+}
+
+#meals_display {
+    margin-bottom: 40px;
+}
