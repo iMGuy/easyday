@@ -30,16 +30,19 @@
     </div>
 
     <div class="container">
-        
-        <div class="row dish-search-box">
-            <div class="row">
-                <?php include('include/dish_select.php'); ?>
-            </div>
-            <div class="row" id="info_inputs">
-                <?php include('include/dish_info.php'); ?>
-            </div>
+        <div class="row">
+            <?php include('include/dish_search.php'); ?>
         </div>
+        <div class="row center_padding">
+            <?php include('include/dish_select.php'); ?>
+        </div>
+        <div class="row center_padding">
+            <?php include('include/dish_info.php'); ?>
+            
+        </div>
+        
         <div class="row" id="meals_display">
+            <hr>
             <div class="clear"></div>   
         </div>
 
@@ -57,7 +60,8 @@
     window.onload = displayMealsView();
     
     $(document).ready ( function(){
-        $('#quantity_input, #addtomeal_select, #add_btn_button, #info_inputs').hide();
+        $('.display_inputs').hide();
+        $('#add_btn').prop('disabled', true);
 
     });
     

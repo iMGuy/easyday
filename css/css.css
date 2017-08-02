@@ -25,27 +25,27 @@ body {
     float: left !important;
     }
 
-.ui-widget.ui-widget-content {
-    right: auto !important;
-    left: auto !important;
-
-}
-
 #autocomplete-results {
     display: block; 
     position:relative
 } 
 
-.ui-autocomplete {
-    position: absolute;
-    width: 90% !important;
-    max-width: 550px !important;
-    /* overflow-x:scroll !important; */
-}
-
 .btn-add {
     margin: 25px 0 0 0 !important;
 }
+
+.center_padding {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.btn {
+    border-bottom-left-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-right-radius: 0 !important;
+    border-top-right-radius: 0!important;
+}
+
 
 .footer {
     clear: both;
@@ -71,4 +71,11 @@ h2 {
 
 #meals_display {
     margin-bottom: 40px;
+}
+
+.display_inputs .form-control {
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0 2px 0px rgba(0,0,0,.075);
+    
 }

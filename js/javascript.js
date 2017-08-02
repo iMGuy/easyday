@@ -17,7 +17,8 @@
     	// After selecting food name - updates nutrition inputs
     	
     	select: function() {
-    	    $('#quantity_input, #addtomeal_select, #add_btn_button,  #info_inputs').show("slow");
+    	    $('.display_inputs').show("slow");
+    	    $('#add_btn').prop('disabled', false);
     	    $.ajax({ type: "GET",   
                     url: "data/unit_search.php",   
                     async: false,
