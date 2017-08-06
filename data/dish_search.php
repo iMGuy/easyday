@@ -25,9 +25,8 @@
         }   
       
         foreach ($data as $key => $value) {
-            // $return_arr[] =  "<div id=\"id-" . $value['NDB_No']. "\" >" . $value['Shrt_Desc'] . "</div >";
+
             $return_arr[]  = $value[$column_name];
-            
         }
     /* Toss back results as json encoded array. */
     echo json_encode($return_arr, JSON_HEX_QUOT);

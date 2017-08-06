@@ -3130,3 +3130,4 @@
 [02-Aug-2017 13:42:43 Asia/Jerusalem] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/easyday/data/dish_search.php on line 33
 [02-Aug-2017 13:42:43 Asia/Jerusalem] PHP Stack trace:
 [02-Aug-2017 13:42:43 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[02-Aug-2017 21:16:30 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/easyday/data/dish_info.php on line 23

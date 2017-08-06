@@ -1,6 +1,6 @@
 <!-- Code source: https://bootsnipp.com/snippets/AXVrV -->
 
-    <div class="col-sm-2 nopadding display_inputs">
+    <div class="  col-sm-2 nopadding display_inputs">
     <div class="form-group">
       <label for="quantity"> <?php echo $texts['homepage']['dish_menu']['quantity']; ?> </label>
       <input  type="text" 
@@ -17,7 +17,7 @@
       <label for="weight"> <?php echo $texts['homepage']['dish_menu']['weight']; ?> </label>
       <select class="form-control" id="weight" name="weight[]">
         <option value=""> <?php echo $texts['homepage']['dish_menu']['weight']; ?> </option>
-        <?php echo dropdown_values_db($weight_dropdown, 'Msre_Desc', 'Gm_Wgt', 'weight'); ?>
+        <?php // echo dropdown_values_db($weight_dropdown, 'Msre_Desc', 'Gm_Wgt', 'weight'); ?>
       </select>
     </div>
   </div>
@@ -29,8 +29,8 @@
               class="form-control auto ui-autocomplete-input units" 
               id="units" 
               name="units[]" 
-              value="0" 
-              placeholder="<?php echo $texts['homepage']['dish_menu']['units']; ?>" 
+              value="100" 
+              placeholder="<?php // echo $texts['homepage']['dish_menu']['units']; ?>" 
               autocomplete="off"
               readonly>
     </div>
@@ -43,7 +43,7 @@
               class="form-control auto ui-autocomplete-input total-units" 
               id="total-units" 
               name="total-units[]" 
-              value="0" 
+              value="100" 
               placeholder="<?php echo $texts['homepage']['dish_menu']['total-units']; ?>" 
               autocomplete="off"
               readonly>

@@ -8,6 +8,9 @@
     	}   
     });
     */
+
+    
+    
     $(".dishname").autocomplete({
     	source: "data/dish_search.php",
     	noCache: true,
@@ -16,24 +19,22 @@
     	appendTo: "#autocomplete-results",
     	// After selecting food name - updates nutrition inputs
     	
-    	select: function() {
+    	select: function( event , ui ) {
     	    $('.display_inputs').show("slow");
     	    $('#add_btn').prop('disabled', false);
-    	    $.ajax({ type: "GET",   
-                    url: "data/unit_search.php",   
-                    async: false,
-                    dataType: "json",
-                    data:"food_name="+$("input:text.dishname").val(),
-                    success : function(data) {
-                        // var obj = JSON.parse(data);
-                        
-                        
-                        
-                    }
-            });
-    	    
-    	},
-    	
+    	    $.ajax({ type: "GET",
+                url: "data/dish_select.php",   
+                async: false,
+                dataType: "json",
+                data:"dish_name="+ ui.item.label,
+                success : function(data) {
+                    document.getElementById("weight").innerHTML = data['weight'];
+                    $('#weight').on('input', function() { 
+                        document.getElementById("units").value = $(this).val(); // The current value of the input field.
+                    }); 
+                },
+    	    });
+        },
     });
 	
 	/* Dynamic Form Fields - Add & Remove Multiple fields, source: https://bootsnipp.com/snippets/AXVrV */

@@ -62,7 +62,16 @@
     $(document).ready ( function(){
         $('.display_inputs').hide();
         $('#add_btn').prop('disabled', true);
-
+    });
+    
+    $('#quantity').on('input', function() {
+        var total_units = $("#quantity").val()*$('#weight').val();
+        document.getElementById("total-units").value =  total_units.toFixed(2);
+    });
+    
+    $('#weight').on('input', function() { 
+        var total_units = $("#quantity").val()*$('#weight').val();
+        document.getElementById("total-units").value =  total_units.toFixed(2);
     });
     
 </script>
