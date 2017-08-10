@@ -12,7 +12,7 @@ $localization = array(
                 'dishname_input'    => 'יש להקליד את שם המנה כאן',
                 'quantity'          => 'כמות',
                 'weight'            => 'יחידות מידה',
-                'units'             => 'משקל (g)',
+                'units'             => 'משקל',
                 'total-units'       => 'סה"כ משקל',
                 'addtomeal'         => 'הוסף לארוחה',
                 'carbs'             => 'פחמימות',
@@ -37,7 +37,19 @@ $localization = array(
                 'evning'    => 'ארוחת ערב',
                 ),
             ),
-         
+        'model'     => array(
+            'Title'                         => 'ערכים תזונתיים של המנה',
+            'Nutrient'                      => 'שם הערך',
+            'Unit'                          => 'יחידות מידה',
+            'Value'                         => 'ערך',
+            'Protein'                       => 'חלבונים',
+            'Total lipid (fat)'             => 'שומן',
+            'Carbohydrate, by difference'   => 'פחממות',
+            'Energy'                        => 'אנרגיה (קלוריות)',
+            'Water'                         => 'מים',
+            'Sugars, total'                 => 'סוכר',
+            'Fiber, total dietary'          => 'סיבים',
+            ),
         
         
         )

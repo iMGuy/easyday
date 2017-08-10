@@ -3131,3 +3131,130 @@
 [02-Aug-2017 13:42:43 Asia/Jerusalem] PHP Stack trace:
 [02-Aug-2017 13:42:43 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
 [02-Aug-2017 21:16:30 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/easyday/data/dish_info.php on line 23
+[06-Aug-2017 10:47:52 Asia/Jerusalem] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/ubuntu/workspace/easyday/lib/functions.php on line 102
+[06-Aug-2017 10:47:52 Asia/Jerusalem] PHP Stack trace:
+[06-Aug-2017 10:47:52 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_select.php:0
+[06-Aug-2017 10:47:52 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_select.php:3
+[06-Aug-2017 10:49:47 Asia/Jerusalem] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/ubuntu/workspace/easyday/lib/functions.php on line 102
+[06-Aug-2017 10:49:47 Asia/Jerusalem] PHP Stack trace:
+[06-Aug-2017 10:49:47 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_select.php:0
+[06-Aug-2017 10:49:47 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_select.php:3
+[06-Aug-2017 11:10:32 Asia/Jerusalem] PHP Fatal error:  Call to undefined function lib\classes\model_build() in /home/ubuntu/workspace/easyday/data/dish_select.php on line 25
+[06-Aug-2017 11:10:32 Asia/Jerusalem] PHP Stack trace:
+[06-Aug-2017 11:10:32 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_select.php:0
+[06-Aug-2017 11:17:44 Asia/Jerusalem] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/easyday/lib/functions.php on line 131
+[06-Aug-2017 11:17:44 Asia/Jerusalem] PHP Stack trace:
+[06-Aug-2017 11:17:44 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_select.php:0
+[06-Aug-2017 11:17:44 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_select.php:3
+[06-Aug-2017 11:17:55 Asia/Jerusalem] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/easyday/lib/functions.php on line 132
+[06-Aug-2017 11:17:55 Asia/Jerusalem] PHP Stack trace:
+[06-Aug-2017 11:17:55 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_select.php:0
+[06-Aug-2017 11:17:55 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_select.php:3
+[06-Aug-2017 11:34:04 Asia/Jerusalem] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/ubuntu/workspace/easyday/lib/functions.php on line 111
+[06-Aug-2017 11:34:04 Asia/Jerusalem] PHP Stack trace:
+[06-Aug-2017 11:34:04 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_select.php:0
+[06-Aug-2017 11:34:04 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_select.php:3
+[06-Aug-2017 11:45:57 Asia/Jerusalem] PHP Parse error:  syntax error, unexpected '.' in /home/ubuntu/workspace/easyday/lib/functions.php on line 105
+[06-Aug-2017 11:45:57 Asia/Jerusalem] PHP Stack trace:
+[06-Aug-2017 11:45:57 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_select.php:0
+[06-Aug-2017 11:45:57 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_select.php:3
+[06-Aug-2017 11:47:08 Asia/Jerusalem] PHP Parse error:  syntax error, unexpected '$html' (T_VARIABLE) in /home/ubuntu/workspace/easyday/lib/functions.php on line 106
+[06-Aug-2017 11:47:08 Asia/Jerusalem] PHP Stack trace:
+[06-Aug-2017 11:47:08 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_select.php:0
+[06-Aug-2017 11:47:08 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_select.php:3
+[06-Aug-2017 11:59:17 Asia/Jerusalem] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/ubuntu/workspace/easyday/config/localization/hebrew.php on line 42
+[06-Aug-2017 11:59:17 Asia/Jerusalem] PHP Stack trace:
+[06-Aug-2017 11:59:17 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_select.php:0
+[06-Aug-2017 11:59:17 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_select.php:3
+[06-Aug-2017 11:59:17 Asia/Jerusalem] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/ubuntu/workspace/easyday/config/localization/hebrew.php on line 42
+[06-Aug-2017 11:59:17 Asia/Jerusalem] PHP Stack trace:
+[06-Aug-2017 11:59:17 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_select.php:0
+[06-Aug-2017 11:59:17 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_select.php:3
+[06-Aug-2017 11:59:18 Asia/Jerusalem] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/ubuntu/workspace/easyday/config/localization/hebrew.php on line 42
+[06-Aug-2017 11:59:18 Asia/Jerusalem] PHP Stack trace:
+[06-Aug-2017 11:59:18 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_select.php:0
+[06-Aug-2017 11:59:18 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_select.php:3
+[06-Aug-2017 09:10:37 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/ubuntu/workspace/easyday/data/dish_select.php on line 42
+[06-Aug-2017 09:11:38 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/ubuntu/workspace/easyday/data/dish_select.php on line 41
+[06-Aug-2017 09:12:29 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/ubuntu/workspace/easyday/data/dish_select.php on line 34
+[06-Aug-2017 18:53:06 UTC] PHP Parse error:  syntax error, unexpected '$return_arr' (T_VARIABLE) in /home/ubuntu/workspace/easyday/data/dish_select.php on line 37
+[09-Aug-2017 10:39:59 Asia/Jerusalem] PHP Warning:  include(config/localization/english.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/easyday/lib/functions.php on line 109
+[09-Aug-2017 10:39:59 Asia/Jerusalem] PHP Stack trace:
+[09-Aug-2017 10:39:59 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[09-Aug-2017 10:39:59 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[09-Aug-2017 10:39:59 Asia/Jerusalem] PHP   3. languagechange() /home/ubuntu/workspace/easyday/lib/wrapper.php:15
+[09-Aug-2017 10:39:59 Asia/Jerusalem] PHP Warning:  include(): Failed opening 'config/localization/english.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/easyday/lib/functions.php on line 109
+[09-Aug-2017 10:39:59 Asia/Jerusalem] PHP Stack trace:
+[09-Aug-2017 10:39:59 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[09-Aug-2017 10:39:59 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[09-Aug-2017 10:39:59 Asia/Jerusalem] PHP   3. languagechange() /home/ubuntu/workspace/easyday/lib/wrapper.php:15
+[09-Aug-2017 10:40:01 Asia/Jerusalem] PHP Warning:  include(config/localization/english.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/easyday/lib/functions.php on line 109
+[09-Aug-2017 10:40:01 Asia/Jerusalem] PHP Stack trace:
+[09-Aug-2017 10:40:01 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[09-Aug-2017 10:40:01 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[09-Aug-2017 10:40:01 Asia/Jerusalem] PHP   3. languagechange() /home/ubuntu/workspace/easyday/lib/wrapper.php:15
+[09-Aug-2017 10:40:01 Asia/Jerusalem] PHP Warning:  include(): Failed opening 'config/localization/english.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/easyday/lib/functions.php on line 109
+[09-Aug-2017 10:40:01 Asia/Jerusalem] PHP Stack trace:
+[09-Aug-2017 10:40:01 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[09-Aug-2017 10:40:01 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[09-Aug-2017 10:40:01 Asia/Jerusalem] PHP   3. languagechange() /home/ubuntu/workspace/easyday/lib/wrapper.php:15
+[09-Aug-2017 10:40:17 Asia/Jerusalem] PHP Warning:  include(config/localization/english.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/easyday/lib/functions.php on line 109
+[09-Aug-2017 10:40:17 Asia/Jerusalem] PHP Stack trace:
+[09-Aug-2017 10:40:17 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[09-Aug-2017 10:40:17 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[09-Aug-2017 10:40:17 Asia/Jerusalem] PHP   3. languagechange() /home/ubuntu/workspace/easyday/lib/wrapper.php:15
+[09-Aug-2017 10:40:17 Asia/Jerusalem] PHP Warning:  include(): Failed opening 'config/localization/english.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/easyday/lib/functions.php on line 109
+[09-Aug-2017 10:40:17 Asia/Jerusalem] PHP Stack trace:
+[09-Aug-2017 10:40:17 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[09-Aug-2017 10:40:17 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[09-Aug-2017 10:40:17 Asia/Jerusalem] PHP   3. languagechange() /home/ubuntu/workspace/easyday/lib/wrapper.php:15
+[09-Aug-2017 10:40:55 Asia/Jerusalem] PHP Warning:  include(config/localization/english.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/easyday/lib/functions.php on line 109
+[09-Aug-2017 10:40:55 Asia/Jerusalem] PHP Stack trace:
+[09-Aug-2017 10:40:55 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[09-Aug-2017 10:40:55 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[09-Aug-2017 10:40:55 Asia/Jerusalem] PHP   3. languagechange() /home/ubuntu/workspace/easyday/lib/wrapper.php:15
+[09-Aug-2017 10:40:55 Asia/Jerusalem] PHP Warning:  include(): Failed opening 'config/localization/english.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/easyday/lib/functions.php on line 109
+[09-Aug-2017 10:40:55 Asia/Jerusalem] PHP Stack trace:
+[09-Aug-2017 10:40:55 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[09-Aug-2017 10:40:55 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[09-Aug-2017 10:40:55 Asia/Jerusalem] PHP   3. languagechange() /home/ubuntu/workspace/easyday/lib/wrapper.php:15
+[09-Aug-2017 10:43:44 Asia/Jerusalem] PHP Warning:  include(config/localization/english.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/easyday/lib/functions.php on line 110
+[09-Aug-2017 10:43:44 Asia/Jerusalem] PHP Stack trace:
+[09-Aug-2017 10:43:44 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[09-Aug-2017 10:43:44 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[09-Aug-2017 10:43:44 Asia/Jerusalem] PHP   3. languagechange() /home/ubuntu/workspace/easyday/lib/wrapper.php:15
+[09-Aug-2017 10:43:44 Asia/Jerusalem] PHP Warning:  include(): Failed opening 'config/localization/english.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/easyday/lib/functions.php on line 110
+[09-Aug-2017 10:43:44 Asia/Jerusalem] PHP Stack trace:
+[09-Aug-2017 10:43:44 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[09-Aug-2017 10:43:44 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[09-Aug-2017 10:43:44 Asia/Jerusalem] PHP   3. languagechange() /home/ubuntu/workspace/easyday/lib/wrapper.php:15
+[09-Aug-2017 10:43:46 Asia/Jerusalem] PHP Warning:  include(config/localization/english.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/easyday/lib/functions.php on line 110
+[09-Aug-2017 10:43:46 Asia/Jerusalem] PHP Stack trace:
+[09-Aug-2017 10:43:46 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[09-Aug-2017 10:43:46 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[09-Aug-2017 10:43:46 Asia/Jerusalem] PHP   3. languagechange() /home/ubuntu/workspace/easyday/lib/wrapper.php:15
+[09-Aug-2017 10:43:46 Asia/Jerusalem] PHP Warning:  include(): Failed opening 'config/localization/english.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/easyday/lib/functions.php on line 110
+[09-Aug-2017 10:43:46 Asia/Jerusalem] PHP Stack trace:
+[09-Aug-2017 10:43:46 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[09-Aug-2017 10:43:46 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[09-Aug-2017 10:43:46 Asia/Jerusalem] PHP   3. languagechange() /home/ubuntu/workspace/easyday/lib/wrapper.php:15
+[09-Aug-2017 10:44:33 Asia/Jerusalem] PHP Warning:  include(config/localization/english.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/easyday/lib/functions.php on line 110
+[09-Aug-2017 10:44:33 Asia/Jerusalem] PHP Stack trace:
+[09-Aug-2017 10:44:33 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[09-Aug-2017 10:44:33 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[09-Aug-2017 10:44:33 Asia/Jerusalem] PHP   3. languagechange() /home/ubuntu/workspace/easyday/lib/wrapper.php:15
+[09-Aug-2017 10:44:33 Asia/Jerusalem] PHP Warning:  include(): Failed opening 'config/localization/english.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/easyday/lib/functions.php on line 110
+[09-Aug-2017 10:44:33 Asia/Jerusalem] PHP Stack trace:
+[09-Aug-2017 10:44:33 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[09-Aug-2017 10:44:33 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[09-Aug-2017 10:44:33 Asia/Jerusalem] PHP   3. languagechange() /home/ubuntu/workspace/easyday/lib/wrapper.php:15
+[09-Aug-2017 10:44:35 Asia/Jerusalem] PHP Warning:  include(config/localization/english.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/easyday/lib/functions.php on line 110
+[09-Aug-2017 10:44:35 Asia/Jerusalem] PHP Stack trace:
+[09-Aug-2017 10:44:35 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[09-Aug-2017 10:44:35 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[09-Aug-2017 10:44:35 Asia/Jerusalem] PHP   3. languagechange() /home/ubuntu/workspace/easyday/lib/wrapper.php:15
+[09-Aug-2017 10:44:35 Asia/Jerusalem] PHP Warning:  include(): Failed opening 'config/localization/english.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/easyday/lib/functions.php on line 110
+[09-Aug-2017 10:44:35 Asia/Jerusalem] PHP Stack trace:
+[09-Aug-2017 10:44:35 Asia/Jerusalem] PHP   1. {main}() /home/ubuntu/workspace/easyday/data/dish_search.php:0
+[09-Aug-2017 10:44:35 Asia/Jerusalem] PHP   2. require_once() /home/ubuntu/workspace/easyday/data/dish_search.php:3
+[09-Aug-2017 10:44:35 Asia/Jerusalem] PHP   3. languagechange() /home/ubuntu/workspace/easyday/lib/wrapper.php:15

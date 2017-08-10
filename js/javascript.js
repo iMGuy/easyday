@@ -10,6 +10,14 @@
     */
 
     
+    function info_update_quantity() {
+        
+        var ratio = $( "#default_weight" ).html() / $( "#units" ).html();
+        console.log(ratio);
+        
+        
+    
+    }
     
     $(".dishname").autocomplete({
     	source: "data/dish_search.php",
@@ -22,21 +30,47 @@
     	select: function( event , ui ) {
     	    $('.display_inputs').show("slow");
     	    $('#add_btn').prop('disabled', false);
+    	    
     	    $.ajax({ type: "GET",
                 url: "data/dish_select.php",   
                 async: false,
                 dataType: "json",
                 data:"dish_name="+ ui.item.label,
                 success : function(data) {
-                    document.getElementById("weight").innerHTML = data['weight'];
-                    $('#weight').on('input', function() { 
-                        document.getElementById("units").value = $(this).val(); // The current value of the input field.
-                    }); 
+                    $( "#model_hive" ).html(data['model']);
+                    $( "#weight" ).html(data['weight']);
+                    $( "#units" ).val( $( "#default_weight" ).html() );
+                    $( "#carbs" ).val( $( "#CHOCDF_value" ).html() );
+                    $( "#protens" ).val( $( "#PROCNT_value" ).html() );
+                    $( "#fats" ).val( $( "#FAT_value" ).html() );
+                    $( "#kal" ).val( $( "#ENERC_KCAL_value" ).html() );
+                    
                 },
     	    });
         },
     });
-	
+    
+    $('#weight').on('input', function() {
+        var ratio       = $(this).val() / $( "#default_weight" ).html() * $( "#quantity" ).val();
+        
+        $( "#units" )   .val( $(this).val() );
+        $( "#carbs" )   .val( ( $( "#CHOCDF_value" ).html() * ratio  ).toFixed(2));
+        $( "#protens" ) .val( ( $( "#PROCNT_value" ).html() * ratio ).toFixed(2));
+        $( "#fats" )    .val( ( $( "#FAT_value" ).html() * ratio ).toFixed(2));
+        $( "#kal" )     .val( ( $( "#ENERC_KCAL_value" ).html() * ratio ).toFixed(2));
+    }); 
+    
+    $('#quantity').on('input', function() {
+        var ratio =$( "#units" ).prop('value') / $( "#default_weight" ).html() * $(this).val();
+        
+        $( "#total-units" ).val( ( $("#quantity").val()*$('#weight').val()).toFixed(2));
+        $( "#carbs" )   .val( ( $( "#CHOCDF_value" ).html() * ratio ).toFixed(2));
+        $( "#protens" ) .val( ( $( "#PROCNT_value" ).html() * ratio ).toFixed(2));
+        $( "#fats" )    .val( ( $( "#FAT_value" ).html() * ratio ).toFixed(2));
+        $( "#kal" )     .val( ( $( "#ENERC_KCAL_value" ).html() * ratio ).toFixed(2));
+       
+    });
+    
 	/* Dynamic Form Fields - Add & Remove Multiple fields, source: https://bootsnipp.com/snippets/AXVrV */
 	var room = 1;
     function menu_fields() {

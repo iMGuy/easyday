@@ -17,7 +17,8 @@
 
     <!-- Navigation -->
     <?php // include("/include/site_top_nav.php");  ?>
-    
+    <!-- Button trigger modal -->
+
     <div class="row" style="text-align: left; width: 95%; margin: 0 auto;">
         <a href="<?php $dir_path ?>index.php?lang=hebrew">עברית</a> | <a href="<?php $dir_path ?>index.php?lang=english">English</a>
     </div>
@@ -50,6 +51,8 @@
         <?php include("include/site_footer.php"); ?>
     </div>
     
+    <div id="model_hive"></div>
+    
     <!-- Site JS files -->
     <?php include("include/site_footer_js.php"); ?>
 
@@ -62,16 +65,6 @@
     $(document).ready ( function(){
         $('.display_inputs').hide();
         $('#add_btn').prop('disabled', true);
-    });
-    
-    $('#quantity').on('input', function() {
-        var total_units = $("#quantity").val()*$('#weight').val();
-        document.getElementById("total-units").value =  total_units.toFixed(2);
-    });
-    
-    $('#weight').on('input', function() { 
-        var total_units = $("#quantity").val()*$('#weight').val();
-        document.getElementById("total-units").value =  total_units.toFixed(2);
     });
     
 </script>

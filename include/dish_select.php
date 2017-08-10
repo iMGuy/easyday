@@ -24,12 +24,12 @@
 
   <div class="col-sm-2 nopadding display_inputs">
     <div class="form-group">
-      <label for="units"> <?php echo $texts['homepage']['dish_menu']['units']; ?> </label>
+      <label for="units"> <?php echo $texts['homepage']['dish_menu']['units'] . "(" . $defoult_units . ")"; ?> </label>
       <input  type="text" 
               class="form-control auto ui-autocomplete-input units" 
               id="units" 
               name="units[]" 
-              value="100" 
+              value="" 
               placeholder="<?php // echo $texts['homepage']['dish_menu']['units']; ?>" 
               autocomplete="off"
               readonly>

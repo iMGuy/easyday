@@ -53,5 +53,5 @@
     </div>
     
     <div class="col-sm-1 nopadding display_inputs">
-        <button class="btn btn-success btn-add" id="dish_info" type="button"  onclick="dish_info();"> <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> </button>
+        <button class="btn btn-success btn-add" id="dish_info" data-toggle="modal" data-target="#myModal" type="button"> <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> </button>
     </div> 

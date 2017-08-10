@@ -18,8 +18,13 @@
     
     <!-- RTL CSS - update style to rtl lang -->
     <link rel="stylesheet" href="<?php echo $dir_path; ?>css/css.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.4.0/css/bootstrap-rtl.css" integrity="sha256-Y4fsmcZ5AITTOI41har72EhwauUaLt5u51px24bEtKc=" crossorigin="anonymous" />
     
+    <?php
+      if ($_SESSION["site_lang"] == "hebrew") {
+        
+        echo "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.4.0/css/bootstrap-rtl.css\" integrity=\"sha256-Y4fsmcZ5AITTOI41har72EhwauUaLt5u51px24bEtKc=\" crossorigin=\"anonymous\" />";
+      }
+    ?>
     <!-- DataTable jquery CDN -->
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css">
     
