@@ -79,3 +79,11 @@ h2 {
     box-shadow: 0 2px 0px rgba(0,0,0,.075);
     
 }
+
+.dish_display {
+    background-color: #fff;
+    box-shadow: 0 2px 0px rgba(0,0,0,.075);
+    display: block;
+    line-height: 34px;
+    margin-left: 10px;    
+}

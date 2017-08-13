@@ -44,10 +44,13 @@
         
         <div class="row" id="meals_display">
             <hr>
-            <div class="clear"></div>   
+            <div class="clear"></div>
+            
+            <!-- Display the meals section in front page -->
+            <?php include("include/meals_display.php"); ?>
         </div>
 
-        <!-- Site footer -->
+        
         <?php include("include/site_footer.php"); ?>
     </div>
     
@@ -60,12 +63,7 @@
 
 <script>
 
-    window.onload = displayMealsView();
-    
-    $(document).ready ( function(){
-        $('.display_inputs').hide();
-        $('#add_btn').prop('disabled', true);
-    });
+    // window.onload = displayMealsView();
     
 </script>
 

@@ -54,7 +54,6 @@
     <div class="form-group">
       <label for="addtomeal"> <?php echo $texts['homepage']['dish_menu']['addtomeal']; ?> </label>
       <select class="form-control" id="addtomeal" name="addtomeal[]">
-        <option value=""> <?php echo $texts['homepage']['dish_menu']['addtomeal']; ?> </option>
         <?php echo dropdown_values('meals'); ?>
       </select>
     </div>
