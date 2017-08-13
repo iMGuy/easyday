@@ -13,6 +13,7 @@
     $(document).ready ( function(){
         $('.display_inputs').hide();
         $('#add_btn').prop('disabled', true);
+        displayMealsView();
     });
     
     // Auto complete dish search feature on fron page.
@@ -68,7 +69,7 @@
         $( "#kal" )         .val( ( $( "#ENERC_KCAL_value" ).html() * ratio ).toFixed(2));
        
     });
-    
+        
 	/* Dynamic Form Fields - Add & Remove Multiple fields, source: https://bootsnipp.com/snippets/AXVrV */
 	var dish = 1;
     function menu_fields() {
@@ -77,21 +78,21 @@
         var objTo = document.getElementById($('#addtomeal').val())
         
         var divtest = document.createElement("div");
-        divtest.setAttribute("class", "row removeclass"+dish);
+        divtest.setAttribute("class", "row row_wrapper removeclass"+dish);
     	var rdiv = 'removeclass'+dish;
     	var dish_name           =$("#dishname").val();
         var dish_unit           =$("#weight option:selected").text();
         var dish_quantity       =$("#quantity").val();
         var dish_total_units    =$("#total-units").val();
         
-        divtest.innerHTML = '<div class=\"col-sm-4 nopadding dish_display\"><div class=\"row\"><div class=\"col-sm-2 nopadding\"><button class=\"btn btn-danger\" type=\"button\" onclick=\"remove_dish_fields('+ dish +');\"> <span class=\"glyphicon glyphicon-minus\" aria-hidden=\"true\"></span> </button></div><div class=\"col-sm-10 nopadding\">' + dish_name + '</div></div></div><div class=\"col-sm-2 nopadding dish_display\">' + dish_unit + '</div><div class=\"col-sm-1 nopadding dish_display\">' + dish_quantity + '</div><div class=\"col-sm-2 nopadding dish_display\">' + dish_total_units + '</div><div class=\"col-sm-1 nopadding\"><button class="btn btn-success" id="dish_info-' + dish + '" data-toggle="modal" data-target="#myModal-' + dish + '" type="button"> <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> </button></div>';
+        divtest.innerHTML = '<div class=\"col-sm-4 nopadding dish_display\">' + dish_name + '</div><div class=\"col-sm-3 nopadding dish_display\">' + dish_unit + '</div><div class=\"col-sm-1 nopadding dish_display\">' + dish_quantity + '</div><div class=\"col-sm-2 nopadding dish_display\">' + dish_total_units + '</div><div class=\"col-sm-1 nopadding\"><button class="btn btn-success" id="dish_info-' + dish + '" data-toggle="modal" data-target="#myModal-' + dish + '" type="button"> <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> </button></div><div class=\"col-sm-1 nopadding\"><button class=\"btn btn-danger\" type=\"button\" onclick=\"remove_dish_fields('+ dish +');\"> <span class=\"glyphicon glyphicon-minus\" aria-hidden=\"true\"></span> </button></div>';
         
         objTo.appendChild(divtest);
         
         // Duplicate the Model info div 
         var modelTo = $('#myModal').clone().prop('id', 'myModal-'+ dish ).addClass('removeclass'+dish );
         $( "#model_hive" ).append( modelTo );   
-        
+        displayMealsView();
         // reset_fileds();
         
         
@@ -111,6 +112,7 @@
     
     function remove_dish_fields(rid) {
        $('.removeclass'+rid).remove();
+       displayMealsView();
     }
     
    
@@ -134,8 +136,13 @@
         var txt = '';
         var i;
         
-        for (i = 1; i < meals.length; i++) {
-            txt = txt + "<div id=\"" + meals.options[i].value + "\"><h2 class = \"meal_title\">" + meals.options[i].text + "</h2></div>\n";
+        for (i = 0; i < meals.length; i++) {
+            
+            if ($('#' + meals.options[i].value).children().length > 1){
+                $('#' + meals.options[i].value).show();
+            } else {
+                $('#' + meals.options[i].value).hide();
+            }
         }
         
         $( meals_display ).append( txt );

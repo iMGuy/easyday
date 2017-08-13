@@ -1,8 +1,28 @@
+/*  https://coolors.co/23ce6b-272d2d-f6f8ff-a846a0-50514f */
 body {
     font-family: 'Arimo', sans-serif;
-    background-color: #F9F9F9;
+    background-color: #F6F8FF;
+    color: #272D2D !important;
     /* background: url("../img/hp_backgroundb.jpg") no-repeat top left fixed;
     background-size: 100%;*/
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+    color: #272D2D !important;
+}
+
+.row_wrapper {
+    padding-right: 10px;
+    border-right: 1px #ccc dotted;
+    margin-right: 20px;
+}
+
+h2 {
+    background-color: #23CE6B;
+    color: #fff !important;
+    line-height: 52px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 .jumbotron {
     background-color: transparent;
@@ -76,14 +96,11 @@ h2 {
 .display_inputs .form-control {
     border: 0;
     border-radius: 0;
-    box-shadow: 0 2px 0px rgba(0,0,0,.075);
     
 }
 
 .dish_display {
     background-color: #fff;
-    box-shadow: 0 2px 0px rgba(0,0,0,.075);
     display: block;
     line-height: 34px;
-    margin-left: 10px;    
 }

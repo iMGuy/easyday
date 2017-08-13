@@ -31,7 +31,7 @@ $localization = array(
                 ),
             'meals'         => array (
                 'brekfast'  => 'brekfast',
-                'snake1'    => '',
+                'snake1'    => '111',
                 'noon'      => '',
                 'snake2'    => '',
                 'evning'    => '',

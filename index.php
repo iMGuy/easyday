@@ -63,7 +63,7 @@
 
 <script>
 
-    // window.onload = displayMealsView();
+    
     
 </script>
 
