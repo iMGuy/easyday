@@ -8,53 +8,93 @@
     	}   
     });
     */
+    
+    // hide dish information on page load from the dish search engin.
+    $(document).ready ( function(){
+        $('.display_inputs').hide();
+        $('#add_btn').prop('disabled', true);
+        displayMealsView();
+    });
+    
+    // Auto complete dish search feature on fron page.
     $(".dishname").autocomplete({
     	source: "data/dish_search.php",
     	noCache: true,
         lookupLimit: 10,
     	minLength: 3,
     	appendTo: "#autocomplete-results",
-    	// After selecting food name - updates nutrition inputs
     	
-    	select: function() {
-    	    $('#quantity_input, #addtomeal_select, #add_btn_button,  #info_inputs').show("slow");
-    	    $.ajax({ type: "GET",   
-                    url: "data/unit_search.php",   
-                    async: false,
-                    dataType: "json",
-                    data:"food_name="+$("input:text.dishname").val(),
-                    success : function(data) {
-                        // var obj = JSON.parse(data);
-                        
-                        
-                        
-                    }
-            });
+    	// On Selecting dish - updates nutrition inputs
+    	select: function( event , ui ) {
+    	    $('.display_inputs').show("slow");
+    	    $('#add_btn').prop('disabled', false);
     	    
-    	},
-    	
+    	    $.ajax({ type: "GET",
+                url: "data/dish_select.php",   
+                async: false,
+                dataType: "json",
+                data:"dish_name="+ ui.item.label,
+                success : function(data) {
+                    $( "#model_hive" ).html(data['model']);
+                    $( "#weight" ).html(data['weight']);
+                    $( "#units" ).val( $( "#default_weight" ).html() );
+                    $( "#carbs" ).val( $( "#CHOCDF_value" ).html() );
+                    $( "#protens" ).val( $( "#PROCNT_value" ).html() );
+                    $( "#fats" ).val( $( "#FAT_value" ).html() );
+                    $( "#kal" ).val( $( "#ENERC_KCAL_value" ).html() );
+                    
+                },
+    	    });
+        },
     });
-	
+    
+    $('#weight').on('input', function() {
+        var ratio       = $(this).val() / $( "#default_weight" ).html() * $( "#quantity" ).val();
+        
+        $( "#units" )   .val( $(this).val() );
+        $( "#total-units" ) .val( ( $("#quantity").val()*$('#weight').val()).toFixed(2));
+        $( "#carbs" )   .val( ( $( "#CHOCDF_value" ).html() * ratio  ).toFixed(2));
+        $( "#protens" ) .val( ( $( "#PROCNT_value" ).html() * ratio ).toFixed(2));
+        $( "#fats" )    .val( ( $( "#FAT_value" ).html() * ratio ).toFixed(2));
+        $( "#kal" )     .val( ( $( "#ENERC_KCAL_value" ).html() * ratio ).toFixed(2));
+    }); 
+    
+    $('#quantity').on('input', function() {
+        var ratio =$( "#units" ).prop('value') / $( "#default_weight" ).html() * $(this).val();
+        
+        $( "#total-units" ) .val( ( $("#quantity").val()*$('#weight').val()).toFixed(2));
+        $( "#carbs" )       .val( ( $( "#CHOCDF_value" ).html() * ratio ).toFixed(2));
+        $( "#protens" )     .val( ( $( "#PROCNT_value" ).html() * ratio ).toFixed(2));
+        $( "#fats" )        .val( ( $( "#FAT_value" ).html() * ratio ).toFixed(2));
+        $( "#kal" )         .val( ( $( "#ENERC_KCAL_value" ).html() * ratio ).toFixed(2));
+       
+    });
+        
 	/* Dynamic Form Fields - Add & Remove Multiple fields, source: https://bootsnipp.com/snippets/AXVrV */
-	var room = 1;
+	var dish = 1;
     function menu_fields() {
      
-        room++;
-        var objTo = document.getElementById('menu_fields')
-        var divtest = document.createElement("div");
-        	divtest.setAttribute("class", "form-group removeclass"+room);
-    	var rdiv = 'removeclass'+room;
-    	var dish_val        =$("input:text.food").val();
-        var quantity_val    =$("input:text.quantity").val();
-        var count_val       =$("input:text.units_count").val();
-        var carbs_val       =$("input:text.carbs_count").val();
-        var protens_val     =$("input:text.protens_count").val();
-        var fats_val        =$("input:text.fats_count").val();
+        dish++;
+        var objTo = document.getElementById($('#addtomeal').val())
         
-        divtest.innerHTML = '<div class="col-sm-3 nopadding"><div class="form-group"><input  type="text" class="form-control auto ui-autocomplete-input food_selected" id="autocomplete'+ room +'" name="food[]" value="'+ dish_val +'" placeholder="Dish Selection" autocomplete="off" readonly></div></div><div class="col-sm-1 nopadding"><div class="form-group"><input  type="text" class="form-control auto ui-autocomplete-input quantity_elected" id="quantity'+ room +'" name="quantity[]" value="'+ quantity_val +'" placeholder="Dish Selection" autocomplete="off" readonly></div></div><div class="col-sm-2 nopadding"><div class="form-group"><input  type="text" class="form-control auto ui-autocomplete-input units_count_selected" id="units_count'+ room +'" name="units_count[]" value="'+ count_val +'" placeholder="Weight" autocomplete="off" readonly></div></div><div class="col-sm-2 nopadding"><div class="form-group"><input  type="text" class="form-control auto ui-autocomplete-input carbs_count_selected" id="carbs_count'+ room +'" name="carbs_count[]" value="'+ carbs_val +'" placeholder="carbs_count" autocomplete="off" readonly></div></div><div class="col-sm-2 nopadding"><div class="form-group"><input  type="text" class="form-control auto ui-autocomplete-input protens_count_elected" id="protens_count'+ room +'" name="protens_count[]" value="'+ protens_val +'" placeholder="protens_count" autocomplete="off" readonly></div></div><div class="col-sm-2 nopadding"><div class="form-group"><div class="input-group"><input  type="text" class="form-control auto ui-autocomplete-input fats_coun_selected" id="fats_count'+ room +'" name="fats_count[]" value="'+ fats_val +'" placeholder="fats_count" autocomplete="off" readonly><div class="input-group-btn"><button class="btn btn-danger" type="button" onclick="remove_menu_fields('+ room +');"> <span class="glyphicon glyphicon-minus" aria-hidden="true"></span> </button></div></div></div></div>';
+        var divtest = document.createElement("div");
+        divtest.setAttribute("class", "row row_wrapper removeclass"+dish);
+    	var rdiv = 'removeclass'+dish;
+    	var dish_name           =$("#dishname").val();
+        var dish_unit           =$("#weight option:selected").text();
+        var dish_quantity       =$("#quantity").val();
+        var dish_total_units    =$("#total-units").val();
+        
+        divtest.innerHTML = '<div class=\"col-sm-4 nopadding dish_display\">' + dish_name + '</div><div class=\"col-sm-3 nopadding dish_display\">' + dish_unit + '</div><div class=\"col-sm-1 nopadding dish_display\">' + dish_quantity + '</div><div class=\"col-sm-2 nopadding dish_display\">' + dish_total_units + '</div><div class=\"col-sm-1 nopadding\"><button class="btn btn-success" id="dish_info-' + dish + '" data-toggle="modal" data-target="#myModal-' + dish + '" type="button"> <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> </button></div><div class=\"col-sm-1 nopadding\"><button class=\"btn btn-danger\" type=\"button\" onclick=\"remove_dish_fields('+ dish +');\"> <span class=\"glyphicon glyphicon-minus\" aria-hidden=\"true\"></span> </button></div>';
         
         objTo.appendChild(divtest);
-        reset_fileds();
+        
+        // Duplicate the Model info div 
+        var modelTo = $('#myModal').clone().prop('id', 'myModal-'+ dish ).addClass('removeclass'+dish );
+        $( "#model_hive" ).append( modelTo );   
+        displayMealsView();
+        // reset_fileds();
+        
         
     }
     
@@ -70,8 +110,9 @@
             $("input:text.fats_count").val('').change();
         }
     
-    function remove_menu_fields(rid) {
+    function remove_dish_fields(rid) {
        $('.removeclass'+rid).remove();
+       displayMealsView();
     }
     
    
@@ -95,8 +136,13 @@
         var txt = '';
         var i;
         
-        for (i = 1; i < meals.length; i++) {
-            txt = txt + "<div id=\"" + meals.options[i].value + "\"><h2 class = \"meal_title\">" + meals.options[i].text + "</h2></div>\n";
+        for (i = 0; i < meals.length; i++) {
+            
+            if ($('#' + meals.options[i].value).children().length > 1){
+                $('#' + meals.options[i].value).show();
+            } else {
+                $('#' + meals.options[i].value).hide();
+            }
         }
         
         $( meals_display ).append( txt );

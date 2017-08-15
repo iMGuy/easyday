@@ -17,7 +17,8 @@
 
     <!-- Navigation -->
     <?php // include("/include/site_top_nav.php");  ?>
-    
+    <!-- Button trigger modal -->
+
     <div class="row" style="text-align: left; width: 95%; margin: 0 auto;">
         <a href="<?php $dir_path ?>index.php?lang=hebrew">עברית</a> | <a href="<?php $dir_path ?>index.php?lang=english">English</a>
     </div>
@@ -30,22 +31,30 @@
     </div>
 
     <div class="container">
-        
-        <div class="row dish-search-box">
-            <div class="row">
-                <?php include('include/dish_select.php'); ?>
-            </div>
-            <div class="row" id="info_inputs">
-                <?php include('include/dish_info.php'); ?>
-            </div>
+        <div class="row">
+            <?php include('include/dish_search.php'); ?>
         </div>
+        <div class="row center_padding">
+            <?php include('include/dish_select.php'); ?>
+        </div>
+        <div class="row center_padding">
+            <?php include('include/dish_info.php'); ?>
+            
+        </div>
+        
         <div class="row" id="meals_display">
-            <div class="clear"></div>   
+            <hr>
+            <div class="clear"></div>
+            
+            <!-- Display the meals section in front page -->
+            <?php include("include/meals_display.php"); ?>
         </div>
 
-        <!-- Site footer -->
+        
         <?php include("include/site_footer.php"); ?>
     </div>
+    
+    <div id="model_hive"></div>
     
     <!-- Site JS files -->
     <?php include("include/site_footer_js.php"); ?>
@@ -54,12 +63,7 @@
 
 <script>
 
-    window.onload = displayMealsView();
     
-    $(document).ready ( function(){
-        $('#quantity_input, #addtomeal_select, #add_btn_button, #info_inputs').hide();
-
-    });
     
 </script>
 

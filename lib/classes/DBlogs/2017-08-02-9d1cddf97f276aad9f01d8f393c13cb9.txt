@@ -1,3 +1,75 @@
+Time : 22:26:47
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT `NDB_No` FROM `FOOD_DES` WHERE `Shrt_Desc` = ?
+
+Time : 22:11:11
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT `NDB_No` FROM `FOOD_DES` WHERE `Shrt_Desc` = ?
+
+Time : 22:10:27
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT `Shrt_Desc` FROM `FOOD_DES` WHERE `Shrt_Desc` LIKE ?
+
+Time : 22:03:02
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT `NDB_No` FROM `FOOD_DES` WHERE `Shrt_Desc` = ?
+
+Time : 21:59:20
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT `NDB_No` FROM `FOOD_DES` WHERE `Shrt_Desc` = ?
+
+Time : 21:45:29
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT `NDB_No` FROM `FOOD_DES` WHERE `Shrt_Desc` = ?
+
+Time : 21:28:20
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT `NDB_No` FROM `FOOD_DES` WHERE `Shrt_Desc` = ?
+
+Time : 21:26:59
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT `NDB_No` FROM `FOOD_DES` WHERE `Shrt_Desc` = ?
+
+Time : 21:25:57
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT `NDB_No` FROM `FOOD_DES` WHERE `Shrt_Desc` = ?
+
+Time : 21:15:05
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT `NDB_No` FROM `FOOD_DES` WHERE `Shrt_Desc` = ?
+
+Time : 21:10:25
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT `NDB_No` FROM `FOOD_DES` WHERE `Shrt_Desc` = ?
+
+Time : 21:09:33
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT `NDB_No` FROM `FOOD_DES` WHERE `Shrt_Desc` = ?
+
+Time : 20:47:56
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT `NDB_No` FROM `FOOD_DES` WHERE `Shrt_Desc` = ?
+
+Time : 20:47:08
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT `NDB_No` FROM `FOOD_DES` WHERE `Shrt_Desc` = ?
+
+Time : 20:45:56
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT `NDB_No` FROM `FOOD_DES` WHERE `Shrt_Desc` = ?
+
+Time : 20:43:57
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT `NDB_No` FROM `FOOD_DES` WHERE `Shrt_Desc` = ?
+
+Time : 20:43:42
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT `NDB_No` FROM `FOOD_DES` WHERE `Shrt_Desc` = ?
+
+Time : 20:15:08
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT `NDB_No` FROM `FOOD_DES` WHERE `Shrt_Desc` = ?
+
 Time : 14:06:06
 SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like'
 Raw SQL : SELECT `Shrt_Desc` FROM `FOOD_DES` WHERE `Shrt_Desc` LIKE ?

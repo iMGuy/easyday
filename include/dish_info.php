@@ -1,4 +1,4 @@
-   <div class="col-sm-2 nopadding block-on-load">
+   <div class="col-sm-3 nopadding display_inputs">
       <div class="form-group">
         <label for="carbs"> <?php echo $texts['homepage']['dish_menu']['carbs']; ?> </label>
         <input  type="text" 
@@ -6,12 +6,12 @@
                 id="carbs" 
                 name="carbs[]" 
                 value="0" 
-                placeholder="carbs" 
+                placeholder="<?php echo $texts['homepage']['dish_menu']['carbs']; ?>" 
                 autocomplete="off"
                 readonly>
       </div>
     </div>
-    <div class="col-sm-2 nopadding block-on-load">
+    <div class="col-sm-3 nopadding display_inputs">
       <div class="form-group">
         <label for="protens"> <?php echo $texts['homepage']['dish_menu']['protens']; ?> </label>
         <input  type="text" 
@@ -19,12 +19,12 @@
                 id="protens"
                 name="protens[]" 
                 value="0" 
-                placeholder="protens" 
+                placeholder="<?php echo $texts['homepage']['dish_menu']['protens']; ?>" 
                 autocomplete="off"
                 readonly>
       </div>
     </div>
-    <div class="col-sm-2 nopadding block-on-load">
+    <div class="col-sm-2 nopadding display_inputs">
       <div class="form-group">
         <label for="fats"> <?php echo $texts['homepage']['dish_menu']['fats']; ?> </label>
         <input  type="text" 
@@ -32,13 +32,13 @@
                 id="fats" 
                 name="fats[]" 
                 value="0" 
-                placeholder="fats" 
+                placeholder="<?php echo $texts['homepage']['dish_menu']['fats']; ?>" 
                 autocomplete="off"
                 readonly>
       </div>
     </div>
     
-     <div class="col-sm-2 nopadding block-on-load">
+     <div class="col-sm-3 nopadding display_inputs">
       <div class="form-group">
         <label for="kal"> <?php echo $texts['homepage']['dish_menu']['kal']; ?> </label>
         <input  type="text" 
@@ -46,12 +46,12 @@
                 id="kal" 
                 name="kal[]" 
                 value="0" 
-                placeholder="kal" 
+                placeholder="<?php echo $texts['homepage']['dish_menu']['kal']; ?>" 
                 autocomplete="off"
                 readonly>
       </div>
     </div>
     
-    <div class="col-sm-1 nopadding block-on-load">
-        <button class="btn btn-success btn-add" id="dish_info" type="button"  onclick="dish_info();"> <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> </button>
+    <div class="col-sm-1 nopadding display_inputs">
+        <button class="btn btn-success btn-add" id="dish_info" data-toggle="modal" data-target="#myModal" type="button"> <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> </button>
     </div> 
